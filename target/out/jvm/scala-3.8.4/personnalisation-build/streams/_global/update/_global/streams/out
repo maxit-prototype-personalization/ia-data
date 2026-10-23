@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/F:/Master2/Memoire/personnalisation/project/"), "personnalisation-build")...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating personnalisation-build_sbt2_3[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved personnalisation-build_sbt2_3 dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of personnalisation-build_sbt2_3[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of personnalisation-build_sbt2_3[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/F:/Master2/Memoire/personnalisation/project/"), "personnalisation-build")[0m

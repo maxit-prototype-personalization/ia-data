@@ -1,0 +1,44 @@
+[error] java.lang.RuntimeException: Expected `personnalisation / scalaVersion` to be 2.13.17 or later, but found 2.13.12.
+[error] To support backwards-only binary compatibility (SIP-51), the Scala 2.13 compiler
+[error] should not be older than scala-library on the dependency classpath.
+[error] 
+[error] Upgrade the `scalaVersion` to fix the build. If upgrading the Scala compiler version is
+[error] not possible (for example due to a regression in the compiler or a missing dependency),
+[error] this error can be demoted by setting `allowUnsafeScalaLibUpgrade := true`.
+[error] 
+[error] See `personnalisation / evicted` to know why scala-library 2.13.17 is getting pulled in.
+[error] 
+[error] 	at scala.sys.package$.error(package.scala:28)
+[error] 	at sbt.internal.Compiler$.scalaInstanceConfigFromUpdate$$anonfun$1$$anonfun$1(Compiler.scala:207)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:632)
+[error] 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:336)
+[error] 	at scala.collection.AbstractIterator.foreach(Iterator.scala:1325)
+[error] 	at sbt.internal.Compiler$.scalaInstanceConfigFromUpdate$$anonfun$1(Compiler.scala:182)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:79)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:79)
+[error] 	at sbt.std.Transform$$anon$3.work(Transform.scala:79)
+[error] 	at sbt.std.Transform$$anon$3.work(Transform.scala:79)
+[error] 	at sbt.Execute.submit$$anonfun$1$$anonfun$1(Execute.scala:283)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+[error] 	at sbt.Execute.work(Execute.scala:294)
+[error] 	at sbt.Execute.submit$$anonfun$1(Execute.scala:283)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$2(ConcurrentRestrictions.scala:269)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:75)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:73)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:842)
+[error] (scalaInstanceConfig) Expected `personnalisation / scalaVersion` to be 2.13.17 or later, but found 2.13.12.
+[error] To support backwards-only binary compatibility (SIP-51), the Scala 2.13 compiler
+[error] should not be older than scala-library on the dependency classpath.
+[error] 
+[error] Upgrade the `scalaVersion` to fix the build. If upgrading the Scala compiler version is
+[error] not possible (for example due to a regression in the compiler or a missing dependency),
+[error] this error can be demoted by setting `allowUnsafeScalaLibUpgrade := true`.
+[error] 
+[error] See `personnalisation / evicted` to know why scala-library 2.13.17 is getting pulled in.
